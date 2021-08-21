@@ -1,4 +1,6 @@
-.header {height: 200px;}
+.header {
+  height: 200px;
+}
 #foto {
   border-radius: 100%;
   width: 200px;
@@ -6,7 +8,6 @@
   position: absolute;
   margin-left: 50px;
   margin-top: 50px;
- 
 }
 
 #moldura {
@@ -14,20 +15,39 @@
   width: 270px;
   z-index: 2;
   margin-left: 13px;
-  margin-top: 18px; 
+  margin-top: 18px;
 }
 
-#name {margin-left: 270px;
-padding-top: 120px;}
+#name {
+  margin-left: 270px;
+  padding-top: 120px;
+}
 
-h1 {font-size: 50px;}
-
+h1 {
+  font-size: 50px;
+}
 
 .body {
   margin-top: 200px;
+  margin: 50px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 body {
   background-color: rgb(235, 224, 202);
   color: #49130eff;
   font-family: "Space Grotesk", sans-serif;
 }
+
+.aboutme {
+  font-size: 25px;
+  line-height: 40px;
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+
+#nametext {text-decoration: none; color: rgb(128, 11, 0); }
+
+a {color: rgb(128, 11, 0); 
+font-weight: bolder;}
