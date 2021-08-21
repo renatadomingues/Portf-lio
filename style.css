@@ -1,14 +1,31 @@
-#foto {border-radius: 100%;
-width: 200px;
-z-index: 1;
-position:absolute;
-margin-left: 50px;}
+.header {height: 200px;}
+#foto {
+  border-radius: 100%;
+  width: 200px;
+  z-index: 1;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 50px;
+ 
+}
 
-#moldura {position:absolute;
-    width: 200px;
-z-index: 2;
-margin-left: 50px;}
+#moldura {
+  position: absolute;
+  width: 270px;
+  z-index: 2;
+  margin-left: 13px;
+  margin-top: 18px; 
+}
 
+#name {margin-left: 270px;
+padding-top: 120px;}
+
+h1 {font-size: 50px;}
+
+
+.body {
+  margin-top: 200px;
+}
 body {
   background-color: rgb(235, 224, 202);
   color: #49130eff;
