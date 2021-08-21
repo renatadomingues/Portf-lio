@@ -1,0 +1,16 @@
+#foto {border-radius: 100%;
+width: 200px;
+z-index: 1;
+position:absolute;
+margin-left: 50px;}
+
+#moldura {position:absolute;
+    width: 200px;
+z-index: 2;
+margin-left: 50px;}
+
+body {
+  background-color: rgb(235, 224, 202);
+  color: #49130eff;
+  font-family: "Space Grotesk", sans-serif;
+}
